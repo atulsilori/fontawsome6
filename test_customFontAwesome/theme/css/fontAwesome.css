@@ -1,0 +1,57 @@
+/**
+ * css for fontawesome icon grid
+ */
+ .ck-fontawesome-grid{
+   padding-top:2px !important;
+ }
+
+ /**
+ * css for fontawesome icon grid container
+ */
+ .ck-fontawesome-grid>.ck-fontawesome-container {
+ 	display: flex;
+  flex-wrap: wrap;
+  height: 240px;
+  overflow: auto;
+  align-content: baseline;
+ }
+
+/**
+ * css for fontawesome icon button in grid
+ */
+ .ck-font-button{
+   width: 10px !important;
+   margin-left: 21px !important;
+   position: relative !important;
+ }
+
+ /**
+ * css for fontawesome search
+ */
+ .ck-fontawesome-type .ck-fontawesome-search {
+   width: 21em !important;
+ }
+
+/**
+ * css for fontawesome search input
+ */
+ .ck-fontawesome-search>.ck.ck-input-text{
+   margin-left: 29px !important;
+   min-width: 16em !important;
+ }
+
+ .ck .ck.ck-color-input {
+ 	margin: 5px 8px;
+  border: 1px solid black;
+ 	border-radius: 2px;
+ 	width: calc(100% - 16px);
+ 	padding: 0 5px;
+ }
+
+/**
+ * css for fontawesome size dropdown
+ */
+ .ck-dropdown__panel>.ck .ck-reset .ck-list{
+  height: 251px !important;
+  overflow: scroll !important;
+ }
